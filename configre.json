@@ -1,0 +1,14 @@
+{
+  "router_id": "LVS_3",
+  "vrrp_instance": [
+    {
+      "state": "backup",
+      "interface": "em1",
+      "virtual_router_id": "51",
+      "priority": "100",
+      "virtual_ipaddress": [
+        "172.16.203.84"
+      ]
+    }
+  ]
+}
